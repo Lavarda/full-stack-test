@@ -4,11 +4,11 @@
 
 <p align="center">
   <a href="#features">Features</a> •
-  <a href="#pré-requisitos">Pre requisites</a> •
-  <a href="#rodando-a-api-com-docker">Running</a> • 
-  <a href="#rotas"> Routes </a>  •  
-  <a href="#tecnologias">Technologies</a> •
-  <a href="#autor">Author</a>
+  <a href="#pre-requisites">Pre requisites</a> •
+  <a href="#running">Running</a> • 
+  <a href="#routes"> Routes </a>  •  
+  <a href="#technologies">Technologies</a> •
+  <a href="#author">Author</a>
 </p>
 
 ### Features
