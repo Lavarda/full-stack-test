@@ -20,10 +20,10 @@ const routes = [
         path: '/dashboard',
         component: () => import('layouts/layout'),
         children: [
-          {
-            path: '/dashboard',
-            component: () => import('pages/dashboard/dashboard')
-          },
+          // {
+          //   path: '/dashboard',
+          //   component: () => import('pages/dashboard/dashboard')
+          // },
           {
             path: '/beers',
             component: () => import('pages/beers/beer')

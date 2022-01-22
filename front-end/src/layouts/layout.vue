@@ -4,14 +4,14 @@
       <div class="q-dashboard-item q-mb-lg q-mt-md">
         <q-img src="https://lirp.cdn-website.com/434357e2/dms3rep/multi/opt/logo-mytapp-negativo-87287584-136w.png" />
       </div>
-      <div class="q-dashboard-item" @click="$router.push('dashboard')">
-        <div class="q-dashboard-item-label">
-          <span>Home</span>
-        </div>
-        <div class="row justify-center items-center q-dashboard-item-icon" :class="{'q-dashboard-item-primary': $route.path.split('/')[1] === 'dashboard'}">
-          <q-img src="~assets/home.svg" width="34px" height="34px"></q-img>
-        </div>
-      </div>
+<!--      <div class="q-dashboard-item" @click="$router.push('dashboard')">-->
+<!--        <div class="q-dashboard-item-label">-->
+<!--          <span>Home</span>-->
+<!--        </div>-->
+<!--        <div class="row justify-center items-center q-dashboard-item-icon" :class="{'q-dashboard-item-primary': $route.path.split('/')[1] === 'dashboard'}">-->
+<!--          <q-img src="~assets/home.svg" width="34px" height="34px"></q-img>-->
+<!--        </div>-->
+<!--      </div>-->
       <div class="q-dashboard-item" @click="$router.push('beers')">
         <div class="q-dashboard-item-label">
           <span>Beers</span>

@@ -62,7 +62,7 @@ export default {
             // set headers
             this.$axios.defaults.headers.common['Authorization'] = login.data.data.token
             // router push
-            await this.$router.push('dashboard')
+            await this.$router.push('beers')
           } else {
             if (login.data.message) {
               this.$q.notify({message: login.data.message, type: 'negative'})
