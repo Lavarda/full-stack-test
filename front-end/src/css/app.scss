@@ -1,0 +1,52 @@
+// app global css in SCSS form
+html {
+  max-width: 1980px;
+  margin: 0 auto;
+  height: 100vh;
+}
+body {
+  font-family: Arial sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1980px;
+  min-height: 100%;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  background: #dadada;
+}
+#app {
+  height: inherit;
+  width: inherit;
+}
+.default-layout {
+  padding: 20px 40px 10px 40px;
+}
+
+.default-layout-background {
+  padding: 30px 30px 10px 40px;
+  background-color: #f8f8f8;
+}
+
+.default-title {
+  font-size: 30px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.default-subtitle {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.default-subtitle-lite {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.opacity-6 {
+  opacity: 0.6;
+}
