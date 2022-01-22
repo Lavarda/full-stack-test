@@ -26,6 +26,11 @@ module.exports = {
                         message: 'Authorization token is not valid.'
                     })
                 }
+            } else {
+                return res.send({
+                    status: 200,
+                    message: 'Missing authorization token.'
+                })
             }
         } catch (e) {
             console.error(e)
@@ -57,6 +62,11 @@ module.exports = {
                         message: 'Authorization token is not valid.'
                     })
                 }
+            } else {
+                return res.send({
+                    status: 200,
+                    message: 'Missing authorization token.'
+                })
             }
         } catch (e) {
             console.error(e)
